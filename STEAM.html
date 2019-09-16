@@ -4,6 +4,10 @@
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.8/aframe/build/aframe-ar.js"></script>
   <body>
     <a-scene embedded arjs>
+      
+<a-assets>
+    <a-asset-item id="coffee" src="assets/.coffee/scene.gltf"></a-asset-item>
+  <a-assets>
       <a-marker preset="hiro">
           <a-sphere position="0 0.5 0" material="color: yellow;"></a-sphere>
         <a-circle position=".4 1.7 0" rotation="-90 0 0" scale=".1 .1 .1" material="color: black;"></a-circle>
